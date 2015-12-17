@@ -1,0 +1,9 @@
+alsi_myworld_homepage:
+    path:     /
+    defaults: { _controller: ALSIMyworldBundle:Default:index }
+
+# src/OC/PlatformBundle/Resources/config/routing.yml
+
+hello_the_world:
+    path:     /hello-world
+    defaults: { _controller: ALSIMyworldBundle:Post:index }
